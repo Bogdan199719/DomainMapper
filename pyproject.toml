@@ -5,18 +5,39 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "mydomainmapper"
 version = "1.0.0"
-description = "DNS → IP resolver для 100+ сервисов с поиском и множеством форматов вывода"
+description = "DNS → IP resolver для 175+ сервисов с поиском и 8 форматами вывода"
 readme = "README.md"
 requires-python = ">=3.8"
-license = { text = "MIT" }
+license = { file = "LICENSE" }
 authors = [
-    { name = "MyDomainMapper Contributors" }
+    { name = "Bogdan199719", email = "" }
+]
+keywords = ["dns", "routing", "vpn", "keenetic", "mikrotik", "wireguard", "ip", "resolver"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: Name Service (DNS)",
+    "Topic :: System :: Networking",
 ]
 dependencies = [
     "dnspython>=2.4",
     "httpx>=0.25",
     "colorama>=0.4",
 ]
+
+[project.urls]
+Homepage = "https://github.com/Bogdan199719/DomainMapper"
+Repository = "https://github.com/Bogdan199719/DomainMapper"
+Issues = "https://github.com/Bogdan199719/DomainMapper/issues"
 
 [project.scripts]
 mydomainmapper = "domainmapper.main:main"
