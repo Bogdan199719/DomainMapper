@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.env
+.venv/
+venv/
+*.txt.bak
+test-*.txt
+resolved-ips.txt
+domain-ip-resolve.txt

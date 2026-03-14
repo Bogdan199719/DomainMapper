@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mydomainmapper"
+version = "1.0.0"
+description = "DNS → IP resolver для 100+ сервисов с поиском и множеством форматов вывода"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "MyDomainMapper Contributors" }
+]
+dependencies = [
+    "dnspython>=2.4",
+    "httpx>=0.25",
+    "colorama>=0.4",
+]
+
+[project.scripts]
+mydomainmapper = "domainmapper.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"domainmapper" = ["*.json"]

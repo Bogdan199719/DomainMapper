@@ -1,0 +1,880 @@
+{
+  "services": {
+    "YouTube": {
+      "aliases": ["yt", "youtube", "ютуб", "гугл видео"],
+      "category": "media",
+      "domain_sources": ["https://raw.githubusercontent.com/Ground-Zerro/DomainMapper/main/platforms/dns-youtube.txt"]
+    },
+    "Facebook": {
+      "aliases": ["fb", "facebook", "фейсбук"],
+      "category": "social",
+      "domain_sources": ["https://raw.githubusercontent.com/Ground-Zerro/DomainMapper/main/platforms/dns-facebook.txt"]
+    },
+    "Instagram": {
+      "aliases": ["ig", "insta", "instagram", "инстаграм"],
+      "category": "social",
+      "domain_sources": ["https://raw.githubusercontent.com/Ground-Zerro/DomainMapper/main/platforms/dns-instagram.txt"]
+    },
+    "Twitter": {
+      "aliases": ["twitter", "x.com", "твиттер"],
+      "category": "social",
+      "domain_sources": ["https://raw.githubusercontent.com/Ground-Zerro/DomainMapper/main/platforms/dns-twitter.txt"]
+    },
+    "TikTok": {
+      "aliases": ["tiktok", "tik-tok", "тикток"],
+      "category": "social",
+      "domain_sources": ["https://raw.githubusercontent.com/Ground-Zerro/DomainMapper/main/platforms/dns-tiktok.txt"]
+    },
+    "Telegram": {
+      "aliases": ["tg", "telegram", "телеграм", "телега"],
+      "category": "communication",
+      "domain_sources": ["https://raw.githubusercontent.com/RockBlack-VPN/ip-address/main/Global/Telegram/telegram_domain"],
+      "domains": ["t.me", "telegram.org", "telegram.me", "web.telegram.org", "cdn-telegram.org", "telegram.dog", "telegra.ph", "graph.org", "tdesktop.com", "telesca.pe", "tx.me", "k.telegram.org", "z.telegram.org", "tg.dev"]
+    },
+    "Discord": {
+      "aliases": ["dc", "discord", "дискорд"],
+      "category": "communication",
+      "domain_sources": ["https://raw.githubusercontent.com/Ground-Zerro/DomainMapper/refs/heads/main/platforms/dns-discord.txt"]
+    },
+    "Signal": {
+      "aliases": ["signal", "сигнал"],
+      "category": "communication",
+      "domains": ["signal.org", "signal.me", "signal.art", "sgnl.link"]
+    },
+    "Viber": {
+      "aliases": ["viber", "вайбер"],
+      "category": "communication",
+      "domains": ["viber.com", "resources.viber.com", "api.viber.com", "botapi.viber.com", "download.viber.com", "account.viber.com"]
+    },
+    "WhatsApp": {
+      "aliases": ["whatsapp", "wa", "вацап", "ватсап"],
+      "category": "communication",
+      "domains": ["whatsapp.com", "whatsapp.net", "web.whatsapp.com", "api.whatsapp.com", "wa.me"]
+    },
+    "Element": {
+      "aliases": ["element", "matrix"],
+      "category": "communication",
+      "domains": ["element.io", "matrix.org", "vector.im"]
+    },
+    "Google": {
+      "aliases": ["google", "гугл"],
+      "category": "tech",
+      "domain_sources": ["https://raw.githubusercontent.com/Ground-Zerro/DomainMapper/main/platforms/dns-google.txt"]
+    },
+    "Bing": {
+      "aliases": ["bing", "bing.com"],
+      "category": "tech",
+      "domain_sources": ["https://raw.githubusercontent.com/Ground-Zerro/DomainMapper/main/platforms/dns-bing.txt"]
+    },
+    "Microsoft": {
+      "aliases": ["microsoft", "ms", "майкрософт"],
+      "category": "tech",
+      "domains": ["microsoft.com", "microsoftonline.com", "microsoftedge.com", "azure.com", "azure.net", "office.com", "office365.com", "office.net", "sharepoint.com", "skype.com", "live.com", "hotmail.com", "msn.com"]
+    },
+    "Outlook": {
+      "aliases": ["outlook", "hotmail", "аутлук"],
+      "category": "tech",
+      "domains": ["outlook.com", "outlook.live.com", "hotmail.com", "live.com", "office365.com"]
+    },
+    "Apple": {
+      "aliases": ["apple", "эппл", "ios"],
+      "category": "tech",
+      "domain_sources": ["https://raw.githubusercontent.com/Ground-Zerro/DomainMapper/main/platforms/dns-apple.txt"]
+    },
+    "Facetime": {
+      "aliases": ["facetime", "фейстайм"],
+      "category": "tech",
+      "domains": ["facetime.apple.com", "buy.itunes.apple.com", "icloud.com"]
+    },
+    "Netflix": {
+      "aliases": ["netflix", "нетфликс"],
+      "category": "media",
+      "domain_sources": ["https://raw.githubusercontent.com/Ground-Zerro/DomainMapper/main/platforms/dns-netflix.txt"]
+    },
+    "Spotify": {
+      "aliases": ["spotify", "спотифай"],
+      "category": "media",
+      "domains": ["spotify.com", "scdn.co", "spotifycdn.com", "audio-sp-*.pscdn.co", "audio.spotify.com", "open.spotify.com", "api.spotify.com", "accounts.spotify.com"]
+    },
+    "Tidal": {
+      "aliases": ["tidal", "тайдал"],
+      "category": "media",
+      "domains": ["tidal.com", "listen.tidal.com", "api.tidal.com", "login.tidal.com"]
+    },
+    "SoundCloud": {
+      "aliases": ["soundcloud", "саундклауд"],
+      "category": "media",
+      "domains": ["soundcloud.com", "sndcdn.com", "api.soundcloud.com"]
+    },
+    "Twitch": {
+      "aliases": ["twitch", "твич"],
+      "category": "media",
+      "domain_sources": ["https://raw.githubusercontent.com/Ground-Zerro/DomainMapper/main/platforms/dns-twitch.txt"]
+    },
+    "Adobe": {
+      "aliases": ["adobe", "адоби"],
+      "category": "tech",
+      "domain_sources": ["https://raw.githubusercontent.com/Ground-Zerro/DomainMapper/main/platforms/dns-adobe.txt"]
+    },
+    "ChatGPT": {
+      "aliases": ["chatgpt", "openai", "chat gpt", "опенаи", "чатгпт"],
+      "category": "ai",
+      "domain_sources": ["https://raw.githubusercontent.com/Ground-Zerro/DomainMapper/main/platforms/dns-openai.txt"]
+    },
+    "Claude": {
+      "aliases": ["claude", "anthropic", "ai_claude", "клод"],
+      "category": "ai",
+      "domains": ["claude.ai", "anthropic.com", "console.anthropic.com", "api.anthropic.com", "usefathom.com", "statsig.anthropic.com"]
+    },
+    "Gemini": {
+      "aliases": ["gemini", "bard", "гемини"],
+      "category": "ai",
+      "domains": ["gemini.google.com", "bard.google.com", "ai.google.dev"]
+    },
+    "Copilot": {
+      "aliases": ["copilot", "github copilot", "bing chat"],
+      "category": "ai",
+      "domain_sources": ["https://raw.githubusercontent.com/Ground-Zerro/DomainMapper/main/platforms/dns-github-сopilot.txt"]
+    },
+    "Grok": {
+      "aliases": ["grok", "xai"],
+      "category": "ai",
+      "domains": ["grok.com", "x.ai", "api.x.ai"]
+    },
+    "Manus": {
+      "aliases": ["manus", "манус"],
+      "category": "ai",
+      "domains": ["manus.im", "api.manus.im"]
+    },
+    "Windsurf": {
+      "aliases": ["windsurf", "codeium ide"],
+      "category": "ai",
+      "domains": ["codeium.com", "windsurf.ai"]
+    },
+    "Codeium": {
+      "aliases": ["codeium", "codeium_domain"],
+      "category": "ai",
+      "domains": ["codeium.com", "api.codeium.com", "enterprise.codeium.com"]
+    },
+    "DeepL": {
+      "aliases": ["deepl", "дипл"],
+      "category": "ai",
+      "domains": ["deepl.com", "api.deepl.com", "api-free.deepl.com"]
+    },
+    "Trae.ai": {
+      "aliases": ["trae", "trae.ai"],
+      "category": "ai",
+      "domains": ["trae.ai", "api.trae.ai"]
+    },
+    "GitHub": {
+      "aliases": ["github", "gh", "гитхаб"],
+      "category": "tech",
+      "domains": ["github.com", "githubusercontent.com", "githubassets.com", "github.io", "api.github.com", "github.githubassets.com"]
+    },
+    "JetBrains": {
+      "aliases": ["jetbrains", "idea", "pycharm", "jetbrains.com"],
+      "category": "tech",
+      "domain_sources": ["https://raw.githubusercontent.com/Ground-Zerro/DomainMapper/refs/heads/main/platforms/dns-jetbrains.txt"]
+    },
+    "Cloudflare": {
+      "aliases": ["cloudflare", "клаудфлейр"],
+      "category": "tech",
+      "domains": ["cloudflare.com", "cloudflareinsights.com", "cloudflare-dns.com", "cloudflarestatus.com"]
+    },
+    "Fastly": {
+      "aliases": ["fastly"],
+      "category": "tech",
+      "domains": ["fastly.com", "fastly.net", "fastly-insights.com"]
+    },
+    "Akamai": {
+      "aliases": ["akamai", "акамай"],
+      "category": "tech",
+      "domains": ["akamai.com", "akamaized.net", "akamaihd.net", "akadns.net"]
+    },
+    "AWS": {
+      "aliases": ["aws", "amazon web services"],
+      "category": "tech",
+      "domains": ["amazonaws.com", "aws.amazon.com", "cloudfront.net", "awsstatic.com"]
+    },
+    "Hetzner": {
+      "aliases": ["hetzner", "гетцнер"],
+      "category": "tech",
+      "domains": ["hetzner.com", "hetzner.de", "hetzner.cloud", "your-server.de"]
+    },
+    "Intel": {
+      "aliases": ["intel", "интел"],
+      "category": "tech",
+      "domains": ["intel.com", "api.intel.com", "software.intel.com"]
+    },
+    "Nvidia": {
+      "aliases": ["nvidia", "нвидиа"],
+      "category": "tech",
+      "domains": ["nvidia.com", "nvidiagamingstreaming.com", "ngdc.nvidia.com", "api.nvidia.com"]
+    },
+    "Lenovo": {
+      "aliases": ["lenovo", "леново"],
+      "category": "tech",
+      "domains": ["lenovo.com", "lenovofiles.com", "smartcss.lenovo.com"]
+    },
+    "Dell": {
+      "aliases": ["dell", "делл", "dell.com"],
+      "category": "tech",
+      "domains": ["dell.com", "api.dell.com", "downloads.dell.com"]
+    },
+    "Cisco": {
+      "aliases": ["cisco", "циско"],
+      "category": "tech",
+      "domains": ["cisco.com", "ciscolive.com", "webex.com", "ciscospark.com"]
+    },
+    "Autodesk": {
+      "aliases": ["autodesk", "autocad", "fusion360"],
+      "category": "tech",
+      "domains": ["autodesk.com", "autodesk.net", "autodeskpersonalization.com"]
+    },
+    "AnyDesk": {
+      "aliases": ["anydesk", "эниDesk"],
+      "category": "tech",
+      "domains": ["anydesk.com", "relay.anydesk.com"]
+    },
+    "Zoom": {
+      "aliases": ["zoom", "зум"],
+      "category": "communication",
+      "domains": ["zoom.us", "zoomgov.com", "zoom.com", "zoomquotes.com", "api.zoom.us"]
+    },
+    "LinkedIn": {
+      "aliases": ["linkedin", "линкедин"],
+      "category": "social",
+      "domains": ["linkedin.com", "licdn.com", "api.linkedin.com"]
+    },
+    "Pinterest": {
+      "aliases": ["pinterest", "пинтерест"],
+      "category": "social",
+      "domains": ["pinterest.com", "pinimg.com", "api.pinterest.com"]
+    },
+    "Snapchat": {
+      "aliases": ["snapchat", "snap", "снапчат"],
+      "category": "social",
+      "domains": ["snapchat.com", "snap.com", "sc-cdn.net", "snapkit.com"]
+    },
+    "Meta": {
+      "aliases": ["meta", "мета"],
+      "category": "social",
+      "domains": ["meta.com", "fb.com", "fbcdn.net", "facebook.com", "instagram.com"]
+    },
+    "Steam": {
+      "aliases": ["steam", "стим", "steampowered"],
+      "category": "gaming",
+      "domains": ["steampowered.com", "steamcommunity.com", "steamstatic.com", "akamaihd.net", "store.steampowered.com", "api.steampowered.com", "steamgames.com"]
+    },
+    "Epic Games": {
+      "aliases": ["epic", "epicgames", "fortnite", "эпик"],
+      "category": "gaming",
+      "domains": ["epicgames.com", "epicgamesstore.com", "unrealengine.com", "fortnite.com", "ol.epicgames.com"]
+    },
+    "EA": {
+      "aliases": ["ea", "electronic arts", "origin", "эа"],
+      "category": "gaming",
+      "domains": ["ea.com", "origin.com", "eaplay.com", "dm.origin.com", "eadp.com"]
+    },
+    "Battlefield5": {
+      "aliases": ["battlefield", "bf5", "battlefield5"],
+      "category": "gaming",
+      "domains": ["battlefield.com", "battlefieldV.com", "p.datadome.co"]
+    },
+    "Blizzard": {
+      "aliases": ["blizzard", "battlenet", "battle.net", "близзард"],
+      "category": "gaming",
+      "domains": ["blizzard.com", "battle.net", "blizzardentertainment.com", "bnet.io"]
+    },
+    "Ubisoft": {
+      "aliases": ["ubisoft", "юбисофт"],
+      "category": "gaming",
+      "domains": ["ubisoft.com", "ubisoft-static.com", "ubi.com", "ubisoftconnect.com"]
+    },
+    "Roblox": {
+      "aliases": ["roblox", "роблокс"],
+      "category": "gaming",
+      "domains": ["roblox.com", "rbxcdn.com", "robloxlabs.com", "rbxtrk.com"]
+    },
+    "Nintendo": {
+      "aliases": ["nintendo", "нинтендо"],
+      "category": "gaming",
+      "domains": ["nintendo.com", "nintendo.net", "accounts.nintendo.com"]
+    },
+    "Xbox": {
+      "aliases": ["xbox", "икс бокс", "microsoft gaming"],
+      "category": "gaming",
+      "domains": ["xbox.com", "xboxlive.com", "xboxservices.com", "microsoft.com"]
+    },
+    "PUBG": {
+      "aliases": ["pubg", "playerunknown"],
+      "category": "gaming",
+      "domains": ["pubg.com", "playbattlegrounds.com", "krafton.com"]
+    },
+    "CS-2": {
+      "aliases": ["cs2", "csgo", "counter-strike", "кс2"],
+      "category": "gaming",
+      "domains": ["counter-strike.net", "valve.net", "steamgames.com"]
+    },
+    "BrawlStars": {
+      "aliases": ["brawlstars", "brawl stars", "бравл старс"],
+      "category": "gaming",
+      "domains": ["brawlstars.com", "supercell.com", "id.supercell.com"]
+    },
+    "Clash Royale": {
+      "aliases": ["clashroyale", "clash royale", "clash"],
+      "category": "gaming",
+      "domains": ["clashroyale.com", "supercell.com", "id.supercell.com"]
+    },
+    "Hay Day": {
+      "aliases": ["hayday", "hay day"],
+      "category": "gaming",
+      "domains": ["hayday.com", "supercell.com"]
+    },
+    "Squad Busters": {
+      "aliases": ["squadbusters", "squad busters"],
+      "category": "gaming",
+      "domains": ["squadbusters.com", "supercell.com"]
+    },
+    "Supercell": {
+      "aliases": ["supercell", "суперселл"],
+      "category": "gaming",
+      "domains": ["supercell.com", "id.supercell.com"]
+    },
+    "Warzone": {
+      "aliases": ["warzone", "cod", "call of duty", "warzone(xbox)"],
+      "category": "gaming",
+      "domains": ["callofduty.com", "activision.com", "uno.activision.com"]
+    },
+    "World of Tanks": {
+      "aliases": ["wot", "world of tanks", "танки"],
+      "category": "gaming",
+      "domains": ["worldoftanks.com", "worldoftanks.eu", "worldoftanks.ru", "wargaming.net"]
+    },
+    "Raid Shadow Legends": {
+      "aliases": ["raid", "raid shadow legends"],
+      "category": "gaming",
+      "domains": ["raid.com", "shadowlegends.plarium.com", "plarium.com"]
+    },
+    "Demonware": {
+      "aliases": ["demonware", "demonware limited"],
+      "category": "gaming",
+      "domains": ["demonware.net", "eu.demonware.net", "us.demonware.net"]
+    },
+    "Throne and Liberty": {
+      "aliases": ["throne and liberty", "throneandliberty", "tnl"],
+      "category": "gaming",
+      "domains": ["playthroneandliberty.com", "throne-and-liberty.com"]
+    },
+    "Canva": {
+      "aliases": ["canva", "канва"],
+      "category": "design",
+      "domains": ["canva.com", "canva-apps.com", "static.canva.com"]
+    },
+    "Figma": {
+      "aliases": ["figma", "фигма"],
+      "category": "design",
+      "domains": ["figma.com", "www.figma.com", "api.figma.com"]
+    },
+    "Miro": {
+      "aliases": ["miro", "миро"],
+      "category": "design",
+      "domains": ["miro.com", "res.cdn.miro.com"]
+    },
+    "Notion": {
+      "aliases": ["notion", "ноушн"],
+      "category": "productivity",
+      "domains": ["notion.so", "notion.site", "api.notion.com"]
+    },
+    "Lucid": {
+      "aliases": ["lucid", "lucidchart", "lucidspark"],
+      "category": "productivity",
+      "domains": ["lucid.co", "lucidchart.com", "lucidspark.com"]
+    },
+    "Medium": {
+      "aliases": ["medium", "медиум"],
+      "category": "media",
+      "domains": ["medium.com", "miro.medium.com"]
+    },
+    "Udemy": {
+      "aliases": ["udemy", "юдеми"],
+      "category": "education",
+      "domains": ["udemy.com", "udemycdn.com", "api.udemy.com"]
+    },
+    "Duolingo": {
+      "aliases": ["duolingo", "дуолинго"],
+      "category": "education",
+      "domains": ["duolingo.com", "duolingo-images.s3.amazonaws.com"]
+    },
+    "Patreon": {
+      "aliases": ["patreon", "патреон", "patreon.com"],
+      "category": "commerce",
+      "domains": ["patreon.com", "www.patreon.com", "api.patreon.com"]
+    },
+    "Etsy": {
+      "aliases": ["etsy", "этси", "etsy.com"],
+      "category": "commerce",
+      "domains": ["etsy.com", "etstatic.net", "api.etsy.com"]
+    },
+    "eBay": {
+      "aliases": ["ebay", "ибей"],
+      "category": "commerce",
+      "domains": ["ebay.com", "ebay.de", "ebay.co.uk", "ebaystatic.com", "ebayimg.com"]
+    },
+    "AliExpress": {
+      "aliases": ["aliexpress", "ali", "алиэкспресс"],
+      "category": "commerce",
+      "domains": ["aliexpress.com", "aliexpresspics.com", "ae01.alicdn.com"]
+    },
+    "Allegro": {
+      "aliases": ["allegro", "allegro.pl"],
+      "category": "commerce",
+      "domains": ["allegro.pl", "allegroapi.io", "allegrostatic.com"]
+    },
+    "Airbnb": {
+      "aliases": ["airbnb", "эирбиэнби"],
+      "category": "commerce",
+      "domains": ["airbnb.com", "airbnb.ru", "a0.muscache.com"]
+    },
+    "Binance": {
+      "aliases": ["binance", "байнанс"],
+      "category": "finance",
+      "domains": ["binance.com", "binance-img.com", "api.binance.com"]
+    },
+    "Envato": {
+      "aliases": ["envato", "themeforest", "envato.com"],
+      "category": "design",
+      "domains": ["envato.com", "envatousercontent.com", "themeforest.net", "codecanyon.net"]
+    },
+    "IMDB": {
+      "aliases": ["imdb", "imdb.com"],
+      "category": "media",
+      "domains": ["imdb.com", "m.imdb.com", "imdb-api.com"]
+    },
+    "The Movie DB": {
+      "aliases": ["tmdb", "themoviedb", "themoviedb.org"],
+      "category": "media",
+      "domains": ["themoviedb.org", "api.themoviedb.org", "image.tmdb.org"]
+    },
+    "The TV DB": {
+      "aliases": ["tvdb", "thetvdb", "thetvdb.com"],
+      "category": "media",
+      "domains": ["thetvdb.com", "api4.thetvdb.com"]
+    },
+    "ProtonMail": {
+      "aliases": ["protonmail", "proton", "протонмейл"],
+      "category": "privacy",
+      "domains": ["proton.me", "protonmail.com", "protonvpn.com", "api.proton.me"]
+    },
+    "Tuta": {
+      "aliases": ["tuta", "tutamail", "tuta.io"],
+      "category": "privacy",
+      "domains": ["tuta.com", "tutanota.com", "app.tuta.com"]
+    },
+    "Tor": {
+      "aliases": ["tor", "тор"],
+      "category": "privacy",
+      "domains": ["torproject.org", "www.torproject.org", "bridges.torproject.org"]
+    },
+    "Strava": {
+      "aliases": ["strava", "strava.com"],
+      "category": "fitness",
+      "domains": ["strava.com", "strava-uploads.s3.amazonaws.com", "cdn-1.strava.com"]
+    },
+    "MyAnimeList": {
+      "aliases": ["mal", "myanimelist", "myanimelist.net"],
+      "category": "media",
+      "domains": ["myanimelist.net", "api.myanimelist.net", "cdn.myanimelist.net"]
+    },
+    "Pixiv": {
+      "aliases": ["pixiv", "пиксив", "pixiv.net"],
+      "category": "media",
+      "domains": ["pixiv.net", "i.pximg.net", "api.pixiv.net"]
+    },
+    "Rutracker": {
+      "aliases": ["rutracker", "рутрекер"],
+      "category": "torrents",
+      "domains": ["rutracker.org", "rutracker.net"]
+    },
+    "Rutor": {
+      "aliases": ["rutor", "рутор", "rutor.info"],
+      "category": "torrents",
+      "domains": ["rutor.info"]
+    },
+    "NNMClub": {
+      "aliases": ["nnmclub", "nnmclub.to"],
+      "category": "torrents",
+      "domains": ["nnmclub.to", "nnmclub.me"]
+    },
+    "Ubiquiti": {
+      "aliases": ["ubiquiti", "unifi"],
+      "category": "tech",
+      "domains": ["ubnt.com", "ui.com", "unifi.ui.com", "inform.ubnt.com"]
+    },
+    "Boosty": {
+      "aliases": ["boosty", "бусти"],
+      "category": "social",
+      "domains": ["boosty.to", "api.boosty.to"]
+    },
+    "Wunderground": {
+      "aliases": ["wunderground"],
+      "category": "other",
+      "domains": ["wunderground.com", "api.weather.com"]
+    },
+    "Speedtest": {
+      "aliases": ["speedtest", "speedtest.net", "ookla"],
+      "category": "other",
+      "domains": ["speedtest.net", "ookla.com", "nperf.com"]
+    },
+    "Bizagi": {
+      "aliases": ["bizagi"],
+      "category": "productivity",
+      "domains": ["bizagi.com", "api.bizagi.com"]
+    },
+    "eWeLink": {
+      "aliases": ["ewelink"],
+      "category": "iot",
+      "domains": ["ewelink.cc", "api.ewelink.cc", "eu-apia.coolkit.cc"]
+    },
+    "Home Connect": {
+      "aliases": ["home-connect", "homeconnect", "bosch home"],
+      "category": "iot",
+      "domains": ["home-connect.com", "api.home-connect.com"]
+    },
+    "Hornet": {
+      "aliases": ["hornet"],
+      "category": "social",
+      "domains": ["hornet.com", "api.hornet.com"]
+    },
+    "Pornhub": {
+      "aliases": ["pornhub"],
+      "category": "adult",
+      "domains": ["pornhub.com", "www.pornhub.com", "api.pornhub.com"]
+    },
+    "HDRezka": {
+      "aliases": ["hdrezka", "rezka"],
+      "category": "media",
+      "domains": ["hdrezka.ag", "hdrezka.me", "hdrezka.stream"]
+    },
+    "Anilibria": {
+      "aliases": ["anilibria", "аниLiбрия"],
+      "category": "media",
+      "domains": ["anilibria.tv", "api.anilibria.tv", "cdn.anilibria.tv"]
+    },
+    "AnimeGo": {
+      "aliases": ["animego", "animego.org"],
+      "category": "media",
+      "domains": ["animego.org", "animego.me"]
+    },
+    "Bato.to": {
+      "aliases": ["bato", "bato.to"],
+      "category": "media",
+      "domains": ["bato.to", "comic.bato.to"]
+    },
+    "Lampa": {
+      "aliases": ["lampa", "лампа"],
+      "category": "media",
+      "domains": ["lampa.mx"]
+    },
+    "LostFilm": {
+      "aliases": ["lostfilm", "лостfilm", "lostfilm.tv"],
+      "category": "media",
+      "domains": ["lostfilm.tv", "www.lostfilm.tv", "api.lostfilm.tv"]
+    },
+    "Meduza": {
+      "aliases": ["meduza", "медуза", "meduza.io"],
+      "category": "media",
+      "domains": ["meduza.io", "mdza.io"]
+    },
+    "VideoCDN": {
+      "aliases": ["videocdn", "videocdn.tv"],
+      "category": "media",
+      "domains": ["videocdn.tv", "www.videocdn.tv"]
+    },
+    "BigFanGroup": {
+      "aliases": ["bigfangroup", "bigfangroup.org"],
+      "category": "media",
+      "domains": ["bigfangroup.org"]
+    },
+    "DW": {
+      "aliases": ["dw", "deutsche welle"],
+      "category": "media",
+      "domains": ["dw.com", "dw-world.de", "p.dw.com"]
+    },
+    "Mouser": {
+      "aliases": ["mouser", "mouser.com"],
+      "category": "commerce",
+      "domains": ["mouser.com", "mouser.ru", "api.mouser.com"]
+    },
+    "Logo": {
+      "aliases": ["logo", "logo.com"],
+      "category": "design",
+      "domains": ["logo.com", "api.logo.com"]
+    },
+    "Bestchange": {
+      "aliases": ["bestchange"],
+      "category": "finance",
+      "domains": ["bestchange.ru", "bestchange.com"]
+    },
+    "Coinglass": {
+      "aliases": ["coinglass", "coinglass.com"],
+      "category": "finance",
+      "domains": ["coinglass.com", "api.coinglass.com"]
+    },
+    "Digash": {
+      "aliases": ["digash", "digash.live"],
+      "category": "finance",
+      "domains": ["digash.live"]
+    },
+    "GGSel": {
+      "aliases": ["ggsel", "ggsel.net"],
+      "category": "gaming",
+      "domains": ["ggsel.net"]
+    },
+    "Tari Wallet": {
+      "aliases": ["tari", "tari wallet"],
+      "category": "finance",
+      "domains": ["tari.com", "tariproject.org", "api.tari.com"]
+    },
+    "Bethesda": {
+      "aliases": ["bethesda", "bethesda.net"],
+      "category": "gaming",
+      "domains": ["bethesda.net", "bethesdagamestudios.com", "api.bethesda.net"]
+    },
+    "WeTransfer": {
+      "aliases": ["wetransfer", "ветрансфер", "wetransfer.com"],
+      "category": "storage",
+      "domains": ["wetransfer.com", "api.wetransfer.com", "cdn.wetransfer.com"]
+    },
+    "Hetzner Cloud": {
+      "aliases": ["hetzner cloud"],
+      "category": "tech",
+      "domains": ["hetzner.cloud", "api.hetzner.cloud"]
+    },
+    "Qoder": {
+      "aliases": ["qoder"],
+      "category": "other",
+      "domains": ["qoder.com"]
+    },
+    "Tevas": {
+      "aliases": ["tevas"],
+      "category": "other",
+      "domains": ["tevas.io"]
+    },
+    "2407.pl": {
+      "aliases": ["2407"],
+      "category": "other",
+      "domains": ["2407.pl"]
+    },
+    "SketchUp 3D Warehouse": {
+      "aliases": ["sketchup", "3dwarehouse", "3dwarehouse.sketchup.com"],
+      "category": "design",
+      "domains": ["3dwarehouse.sketchup.com", "sketchup.com"]
+    },
+    "Ozon": {
+      "aliases": ["ozon", "озон"],
+      "category": "ru",
+      "domains": ["ozon.ru", "api.ozon.ru", "static.ozon.ru", "cdn.ozon.ru", "m.ozon.ru"]
+    },
+    "Rutube": {
+      "aliases": ["rutube", "рутюб"],
+      "category": "ru",
+      "domains": ["rutube.ru", "www.rutube.ru", "api.rutube.ru", "static.rutube.ru"]
+    },
+    "VK": {
+      "aliases": ["vk", "вконтакте", "vkontakte"],
+      "category": "ru",
+      "domains": ["vk.com", "vk.me", "vkuseraudio.com", "userapi.com", "vkimg.net", "api.vk.com"]
+    },
+    "Wildberries": {
+      "aliases": ["wildberries", "wb", "вайлдберриз"],
+      "category": "ru",
+      "domains": ["wildberries.ru", "wb.ru", "wbstatic.net", "wbxparser.online"]
+    },
+    "2ip.ru": {
+      "aliases": ["2ip", "2ip.ru"],
+      "category": "ru",
+      "domains": ["2ip.ru", "2ip.io"]
+    },
+    "4pda": {
+      "aliases": ["4pda", "4pda.to"],
+      "category": "ru",
+      "domains": ["4pda.to", "4pda.ru", "s.4pda.to"]
+    },
+    "Aeroflot": {
+      "aliases": ["aeroflot", "аэрофлот", "aeroflot.ru"],
+      "category": "ru",
+      "domains": ["aeroflot.ru", "www.aeroflot.ru", "api.aeroflot.ru"]
+    },
+    "ARB": {
+      "aliases": ["arb", "arb.ru"],
+      "category": "ru",
+      "domains": ["arb.ru"]
+    },
+    "CBR": {
+      "aliases": ["cbr", "cbr.ru", "банк России"],
+      "category": "ru",
+      "domains": ["cbr.ru", "www.cbr.ru"]
+    },
+    "CIAN": {
+      "aliases": ["cian", "циан", "cian.ru"],
+      "category": "ru",
+      "domains": ["cian.ru", "www.cian.ru", "api.cian.ru"]
+    },
+    "Dom.ru": {
+      "aliases": ["dom.ru", "доморф"],
+      "category": "ru",
+      "domains": ["dom.ru", "api.dom.ru", "spb.dom.ru"]
+    },
+    "Dzen": {
+      "aliases": ["dzen", "дзен", "dzen.ru"],
+      "category": "ru",
+      "domains": ["dzen.ru", "zen.yandex.ru", "api.dzen.ru"]
+    },
+    "Gosuslugi": {
+      "aliases": ["gosuslugi", "госуслуги"],
+      "category": "ru",
+      "domains": ["gosuslugi.ru", "www.gosuslugi.ru", "api.gosuslugi.ru", "esia.gosuslugi.ru"]
+    },
+    "Gov.ru": {
+      "aliases": ["gov.ru", "правительство"],
+      "category": "ru",
+      "domains": ["gov.ru", "government.ru"]
+    },
+    "Habr": {
+      "aliases": ["habr", "хабр", "habr.com", "habrahabr"],
+      "category": "ru",
+      "domains": ["habr.com", "habrastorage.org", "habrahabr.ru"]
+    },
+    "IVI": {
+      "aliases": ["ivi", "ivi.ru"],
+      "category": "ru",
+      "domains": ["ivi.ru", "www.ivi.ru", "api.digitalaccess.ru"]
+    },
+    "Keenetic": {
+      "aliases": ["keenetic", "кинетик", "keenetic.ru"],
+      "category": "ru",
+      "domains": ["keenetic.ru", "my.keenetic.net", "api.keenetic.io"]
+    },
+    "Kino.pub": {
+      "aliases": ["kino.pub", "kinopub"],
+      "category": "ru",
+      "domains": ["kino.pub", "api.service-kp.com"]
+    },
+    "Kinopoisk": {
+      "aliases": ["kinopoisk", "кинопоиск", "kinopoisk.ru"],
+      "category": "ru",
+      "domains": ["kinopoisk.ru", "st.kp.yandex.net", "frontend.vh.yandex.ru"]
+    },
+    "Kinozal": {
+      "aliases": ["kinozal", "кинозал", "kinozal.tv"],
+      "category": "ru",
+      "domains": ["kinozal.tv", "kinozal.me"]
+    },
+    "Kion": {
+      "aliases": ["kion", "кион", "kion.ru"],
+      "category": "ru",
+      "domains": ["kion.ru", "api.kion.ru"]
+    },
+    "Mail.ru": {
+      "aliases": ["mailru", "mail.ru", "мэйлру"],
+      "category": "ru",
+      "domains": ["mail.ru", "account.mail.ru", "api.mail.ru", "cloud.mail.ru", "img.mail.ru"]
+    },
+    "Mos.ru": {
+      "aliases": ["mos.ru", "мос.ру"],
+      "category": "ru",
+      "domains": ["mos.ru", "www.mos.ru", "api.mos.ru"]
+    },
+    "Mosenergosbyt": {
+      "aliases": ["mosenergosbyt", "mosenergosbyt.ru"],
+      "category": "ru",
+      "domains": ["mosenergosbyt.ru", "lk.mosenergosbyt.ru"]
+    },
+    "Mosreg": {
+      "aliases": ["mosreg", "mosreg.ru"],
+      "category": "ru",
+      "domains": ["mosreg.ru", "uslugi.mosreg.ru"]
+    },
+    "MVideo": {
+      "aliases": ["mvideo", "мвидео", "mvideo.ru"],
+      "category": "ru",
+      "domains": ["mvideo.ru", "www.mvideo.ru", "api.mvideo.ru"]
+    },
+    "Nalog.ru": {
+      "aliases": ["nalog", "nalog.ru", "налоговая"],
+      "category": "ru",
+      "domains": ["nalog.ru", "nalog.gov.ru", "lkfl.nalog.ru"]
+    },
+    "Okko": {
+      "aliases": ["okko", "окко", "okko.ru"],
+      "category": "ru",
+      "domains": ["okko.ru", "api.okko.ru", "cdn.okko.ru"]
+    },
+    "RZD": {
+      "aliases": ["rzd", "ржд", "rzd.ru"],
+      "category": "ru",
+      "domains": ["rzd.ru", "www.rzd.ru", "api.rzd.ru"]
+    },
+    "Sberbank": {
+      "aliases": ["sberbank", "сбербанк", "sber", "сбер"],
+      "category": "ru",
+      "domains": ["sberbank.ru", "sber.ru", "online.sberbank.ru", "api.sberbank.ru"]
+    },
+    "Tinkoff": {
+      "aliases": ["tinkoff", "тинькофф", "tinkoff.ru"],
+      "category": "ru",
+      "domains": ["tinkoff.ru", "www.tinkoff.ru", "api.tinkoff.ru", "acdn.tinkoff.ru"]
+    },
+    "Yandex": {
+      "aliases": ["yandex", "яндекс", "yandex.ru"],
+      "category": "ru",
+      "domains": ["yandex.ru", "yandex.com", "ya.ru", "api.yandex.ru", "mc.yandex.ru", "browser.yandex.ru", "tune.yandex.ru", "weather.yandex.ru", "music.yandex.ru", "tv.yandex.ru"]
+    },
+    "RT": {
+      "aliases": ["rt", "russia today", "rt.ru"],
+      "category": "ru",
+      "domains": ["rt.ru", "russiatoday.ru", "rtd.rt.com"]
+    },
+    "Smotrim": {
+      "aliases": ["smotrim", "смотрим", "smotrim.ru"],
+      "category": "ru",
+      "domains": ["smotrim.ru", "api.smotrim.ru"]
+    },
+    "Wink": {
+      "aliases": ["wink", "wink.ru"],
+      "category": "ru",
+      "domains": ["wink.ru", "api.wink.ru"]
+    },
+    "VKPlay": {
+      "aliases": ["vkplay", "vk play", "vkplay.ru"],
+      "category": "ru",
+      "domains": ["vkplay.ru", "vkplay.live", "api.vkplay.ru"]
+    },
+    "Vitrina TV": {
+      "aliases": ["vitrina", "vitrina.tv"],
+      "category": "ru",
+      "domains": ["vitrina.tv", "api.vitrina.tv"]
+    },
+    "Premiere": {
+      "aliases": ["premiere", "premiere.one"],
+      "category": "ru",
+      "domains": ["premiere.one", "api.premiere.one"]
+    },
+    "Viju": {
+      "aliases": ["viju", "viju.ru"],
+      "category": "ru",
+      "domains": ["viju.ru", "api.viju.ru"]
+    },
+    "Smotreshka": {
+      "aliases": ["smotreshka", "smotreshka.tv"],
+      "category": "ru",
+      "domains": ["smotreshka.tv", "api.smotreshka.tv"]
+    },
+    "Custom": {
+      "aliases": ["custom", "кастом", "свой список"],
+      "category": "custom",
+      "domains": []
+    }
+  }
+}
