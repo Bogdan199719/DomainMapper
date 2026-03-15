@@ -16,9 +16,9 @@ DEFAULT_VALUES = {
     'keenetic': '',
     'listname': '',
     'cfginfo': 'yes',
+    'quality': '',
+    'verbose': 'no',
     'run': '',
-    'localplatform': 'no',
-    'localdns': 'yes',
 }
 
 
@@ -35,9 +35,9 @@ class Config:
     keenetic: str = ''
     listname: str = ''
     cfginfo: bool = True
+    quality: str = ''
+    verbose: bool = False
     run: str = ''
-    localplatform: bool = False
-    localdns: bool = True
 
 
 def load_config(cfg_file: str = 'config.ini') -> Config:
@@ -81,7 +81,7 @@ def load_config(cfg_file: str = 'config.ini') -> Config:
         keenetic=s.get('keenetic', '').strip(),
         listname=s.get('listname', '').strip(),
         cfginfo=flag('cfginfo', default=True),
+        quality=s.get('quality', '').strip().lower(),
+        verbose=flag('verbose', default=False),
         run=s.get('run', '').strip(),
-        localplatform=flag('localplatform', default=False),
-        localdns=flag('localdns', default=True),
     )

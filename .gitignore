@@ -14,3 +14,6 @@ venv/
 test-*.txt
 resolved-ips.txt
 domain-ip-resolve.txt
+.mydomainmapper-history.json
+*-ip.txt
+*-keeneticfile.txt

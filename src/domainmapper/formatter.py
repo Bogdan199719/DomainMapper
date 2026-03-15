@@ -80,6 +80,8 @@ def format_lines(
 
         if filetype == 'win':
             line = f"route add {ip} mask {mix_mask if mode == 'mix' else mask} {gateway}"
+        elif filetype == 'keeneticfile':
+            line = f"route add {ip} mask {mix_mask if mode == 'mix' else mask} 0.0.0.0"
         elif filetype == 'unix':
             line = f"ip route {ip}{cidr} {gateway}"
         elif filetype == 'keenetic':
